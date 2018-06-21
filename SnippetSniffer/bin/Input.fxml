@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="217.0" prefWidth="733.0" style="-fx-background-color: #bb5935;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InputController">
+   <children>
+      <Text layoutX="14.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose a src file" />
+      <Button fx:id="browseButton" layoutX="14.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#onClick" text="Browse" />
+      <Text layoutX="14.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30px; -fx-font-weight: bold;" text="Snippet Sniffer" wrappingWidth="236.30224609375">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This application will find any code snippets in your src file if they are properly documented." />
+      <TextField fx:id="fileChooser" layoutX="9.0" layoutY="124.0" prefHeight="31.0" prefWidth="714.0" />
+   </children>
+   <effect>
+      <InnerShadow color="#222120" />
+   </effect>
+</AnchorPane>
